@@ -1,16 +1,27 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Header from './components/Header/Header'
+import PopularCourses from './components/PopularCourses/PopularCourses'
+import Category from './components/Category/Category'
+import Difference from './components/Difference/Difference'
+import Testimonial from './components/Testimonial/Testimonial'
+import Footer from './components/Footer/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
+      <div className='my-container'>
       <Header></Header>
-    </>
+      <PopularCourses></PopularCourses>
+      <Category></Category>
+      <Difference></Difference>
+      <Testimonial></Testimonial>
+      
+    </div>
+    <div className='footer-container'>
+    <Footer></Footer>
+    </div>
+    </div>
   )
 }
 
