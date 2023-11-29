@@ -11,18 +11,22 @@
   @apply  font-bold ;
   font-family: 'EB Garamond', serif, 'Inter', sans-serif,'Lora', serif,'Open Sans', sans-serif,
   'Poppins', sans-serif,'Work Sans', sans-serif;
+  color: #FFFFFF;
 }
 
 
 h1,p,a{
-@apply text-slate-50;
+ color: #D9ECFF;
 }
 .my-container{
   /* @apply bg-violet-950 px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-6 lg:px-28 lg:py-7 */
-  @apply bg-violet-950 px-4 py-8 md:px-20 lg:px-28 lg:py-7  mx-auto 
+  @apply bg-violet-950 px-4 py-8 md:px-20 lg:px-28 lg:py-7  mx-auto;
+  background-color: #2C1F4A;
+  
 }
 .footer-container{
-  @apply bg-indigo-950 px-4 py-8 md:px-20 lg:px-28 lg:py-7  mx-auto 
+  @apply  px-4 py-8 md:px-20 lg:px-28 lg:py-7  mx-auto;
+  background-color: rgb(58, 38, 104);
 }
 .button-primary{
   @apply bg-violet-500 w-28 h-10 rounded-full text-sm text-slate-50 hover:bg-violet-900;
@@ -30,13 +34,26 @@ h1,p,a{
 }
 .button-secondary{
   @apply bg-violet-500 w-20 h-7 rounded-full text-sm text-slate-50 opacity-60;
-
 }
 .plusSign{
   @apply text-2xl text-red-500 opacity-50 inline-grid m-1
 }
-
+.courses-partner{
+  color: #D9ECFF;
+}
 
 .activetab{
-  @apply rounded-full bg-violet-500 px-8 py-4;
+  @apply rounded-full px-8 py-4;
+  background-color: #7F56D9
+
+}
+
+.tab-option{
+  @apply flex bg-white bg-opacity-10 text-white gap-14 items-center p-2 rounded-full text-sm font-semibold;
+}
+
+.card-design{
+  @apply flex flex-col gap-2 w-full border border-violet-400 border-opacity-20  shadow-2xl;
+  background-color: #381D74;
+  
 }

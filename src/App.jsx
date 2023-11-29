@@ -5,6 +5,7 @@ import Category from './components/Category/Category'
 import Difference from './components/Difference/Difference'
 import Testimonial from './components/Testimonial/Testimonial'
 import Footer from './components/Footer/Footer'
+import Navbar from './components/Header/Navbar'
 
 function App() {
 

@@ -11,8 +11,8 @@ import { TiSocialPinterest } from "react-icons/ti";
 
 const Footer = () => {
     return (
-        <div className="mt-8">
-            <div className="hidden lg:flex justify-between items-center gap-7 mb-10">
+        <div className="mt-12">
+            <div className="hidden lg:flex justify-between items-center gap-7 mb-14">
         {/* 1 */}
             <div className="">
             <div className='flex items-center gap-3 mb-8 '>
@@ -57,7 +57,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <div className=" flex justify-between text-sm mt-6">
+        <div className=" flex justify-between text-sm mt-6 ">
             <p>Copyright 2023 | All Rights Reserved</p>
             <div className="text-white flex gap-5">
                 <CiFacebook />

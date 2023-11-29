@@ -3,20 +3,20 @@ import banner_img from '/src/assets/banner-img.json';
 import Lottie from 'lottie-react';
 import { FaPlus } from "@react-icons/all-files/fa/FaPlus";
 import { CiSearch } from "react-icons/ci";
+import banner from "/src/assets/faq.png";
+import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='flex '>
+        <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2'>
             <div className='me-24'>
-                <h1 className='banner-text mr-2 inline'><span className='text-violet-300'>Best courses</span>  are waiting to enrich your skill <span className='m-2'></span>
+                <span className='banner-text mr-2 inline text-white'><span className='text-violet-300'>Best courses</span>  are waiting to enrich your skill <span className='m-2'></span>
                 <span className='plusSign'><FaPlus /></span>
                 <span className='plusSign'><FaPlus /></span>
                 <span className='plusSign'><FaPlus /></span>
-                </h1>
-                <p className='me-24 mt-8'>Provides you with the latest online learning system and material
+                </span>
+                <p className='me-24 mt-8 text-white'>Provides you with the latest online learning system and material
 that help your knowledge growing.</p>
-
-
 {/* explore button */}
 <div className='relative mt-4 mb-12'>
             <input className=' w-full h-14 border border-black rounded-full p-7 mt-6 mb-6' 
@@ -34,8 +34,14 @@ that help your knowledge growing.</p>
             </div>
             </div>
             {/* banner image */}
-            <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
+            {/* <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
           <Lottie animationData={banner_img} loop={true} />
+        </div> */}
+        <div>
+        {/* radial gradient circle */}
+            <div className='radial-circle ml-80 '></div>
+            
+            <img src={banner} alt="" />
         </div>
         </div>
     );

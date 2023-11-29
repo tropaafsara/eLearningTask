@@ -15,12 +15,12 @@ const PopularCourses = () => {
             <div className='flex justify-between items-center'>
             <h1 className=' text-5xl title'>Popular <span className='text-violet-300'>Courses</span></h1>
             {/* tab category */}
-            <div className='flex bg-violet-900 bg-opacity-50 text-white gap-14 items-center p-2 rounded-full text-sm font-semibold'>
+            <div className='tab-option '>
             <div
               onClick={() => handleTabClick("design")}
-              className={`tab tab2 remote ms-1  ${
+              className={`tab tab2 remote ms-7 ${
                 activeTab === "design" ? "activetab" : ""
-              }`}
+              } `}
             >
               Design
             </div>
@@ -67,9 +67,11 @@ const PopularCourses = () => {
             <Card></Card>
 
             <div className='text-center mt-8'>
-            <button className='py-3 px-8 text-sm bg-violet-500 rounded-full text-slate-200'>Explore All Courses</button>
+            <button className='py-3 px-8 text-sm bg-violet-500 rounded-full text-slate-200 mt-8'>Explore All Courses</button>
             </div>
             </div>
+            {/* radial gradient circle */}
+        <div className='radial-circle-9 '></div>
         </div>
     );
 };

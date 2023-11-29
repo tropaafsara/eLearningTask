@@ -14,9 +14,9 @@ import './Category.css'
 const Category = () => {
     return (
         <div>
-            <h1 className='title text-5xl'>Most Popular Category</h1>
-            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1  gap-6 mt-8'>
-                <div className='flex items-center justify-between  p-3 rounded-lg bg-violet-300 bg-opacity-30'>
+            <h1 className='title text-5xl mt-24 mb-16 text-center'>Most Popular <span className='text-violet-300'>Category</span></h1>
+            <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1  gap-6 mt-8 '>
+                <div className=' flex items-center justify-between  p-3 rounded-lg bg-violet-300 bg-opacity-30'>
                     <div className='flex items-center gap-3'>
                     <span className='text-white text-xl ms-2'><AiOutlineAntDesign /></span>
                     <p>Design</p>

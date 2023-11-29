@@ -1,3 +1,15 @@
 .b{
     border-radius: 20px;
 }
+
+.radial-circle-5{
+    width: 600px;
+    height:600px;
+    border-radius: 500px;
+    /* background-color: red; */
+    background-image: radial-gradient(#0e76f5 5%, rgb(18, 150, 238) 25%, rgba(44, 31, 74, 0) 60%);
+    opacity: 0.1;
+    position: absolute;
+    z-index: 2;
+    margin-left: 300px;
+  }

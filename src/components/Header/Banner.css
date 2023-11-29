@@ -1,11 +1,11 @@
-.radial-circle-2{
-    width: 350px;
-    height:350px;
+.radial-circle{
+    width: 500px;
+    height: 500px;
     border-radius: 500px;
+    /* background-color: red; */
     background-image: radial-gradient(#0e76f5 5%, rgb(18, 150, 238) 25%, rgba(44, 31, 74, 0) 60%);
     opacity: 0.1;
     position: absolute;
     z-index: 2;
-    margin-top: 440px;
-    margin-right: 200px;
+    margin-left: 300px;
   }
