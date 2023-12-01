@@ -51,6 +51,9 @@ const Testimonial = () => {
             <img className='w-8 rounded-full h-8 absolute top-5 right-1' src={img4} alt="" />
             <img className='rounded-full w-10 h-10 absolute bottom-4 right-10' src={image1} alt="" />
             </div>
+           
+
+         
 
 
 
@@ -65,9 +68,10 @@ const Testimonial = () => {
 
             </div>
 
-        <div className='flex mt-20 mx-20 mb-20'>
-        <div>
-        <p className='title text-5xl me-8'>Join our <span className='text-violet-400'>world's largest</span> learning platform today</p>
+        <div className='flex flex-col md:flex-row lg:flex-row gap-6 mt-20 mx-20 mb-20'>
+        {/* <div className='flex mt-20 mx-20 mb-20'> */}
+        <div className=''>
+        <p className='title text-5xl '>Join our <span className='text-violet-400'>world's largest</span> learning platform today</p>
         <p className='mt-5'>Start learning by registering and get 30 days free trail</p>
         </div>
 

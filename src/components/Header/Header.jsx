@@ -9,12 +9,10 @@ import PopularCourses from '../PopularCourses/PopularCourses';
 const Header = () => {
     return (
         <div className=''>
-    
         <Navbar></Navbar>
-           
         <section>
             {/* radial gradient circle */}
-            <div className='radial-circle-2 '></div>
+            {/* <div className='radial-circle-2 '></div> */}
             <Banner></Banner>
             
             <CoursePartner></CoursePartner>

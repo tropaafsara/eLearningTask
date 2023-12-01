@@ -14,8 +14,6 @@ const Navbar = () => {
             <div className='flex items-center gap-3'>
             <button className='text-white bg-violet-500 rounded p-1 text-xl'><GrPersonalComputer /></button>
             <a className='font-bold text-3xl title ' href="/">Edujar</a>
-            
-
             </div>
 
             <span className=' menu'>

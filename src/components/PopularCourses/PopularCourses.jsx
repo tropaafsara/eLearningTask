@@ -71,7 +71,7 @@ const PopularCourses = () => {
             </div>
             </div>
             {/* radial gradient circle */}
-        <div className='radial-circle-9 '></div>
+        {/* <div className='radial-circle-9 '></div> */}
         </div>
     );
 };

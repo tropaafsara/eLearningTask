@@ -11,8 +11,12 @@ function App() {
 
   return (
     <div>
-      <div className='my-container'>
+      <div className='my-container relative'>
+      <div className="circle1"></div>
+      <div className="circle2"></div>
+      <div className="circle3"></div>
       <Header></Header>
+      
       <PopularCourses></PopularCourses>
       <Category></Category>
       <Difference></Difference>

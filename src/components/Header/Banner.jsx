@@ -37,12 +37,9 @@ that help your knowledge growing.</p>
             {/* <div className='w-full lg:w-4/5 lg:ml-auto h-56  sm:h-96'>
           <Lottie animationData={banner_img} loop={true} />
         </div> */}
-        <div>
-        {/* radial gradient circle */}
-            <div className='radial-circle ml-80 '></div>
-            
-            <img src={banner} alt="" />
-        </div>
+        <div className='relative'>
+            <img className='bg-img' src={banner} alt="" />
+            </div>
         </div>
     );
 };

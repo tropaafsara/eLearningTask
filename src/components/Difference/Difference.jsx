@@ -9,10 +9,6 @@ import { FaStar } from "react-icons/fa";
 
 import '../Difference/Difference.css'
 import Dot from './Dot';
-
-
-
-
 const Difference = () => {
     return (
         <div>
@@ -21,7 +17,8 @@ const Difference = () => {
             <span className='text-5xl text-yellow-300 '><FaStar /></span>
         </div>
         </div>
-            <div className='flex mt-4 justify-between gap-12'>
+            <div className='grid gird-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 '>
+            {/* <div className='flex mt-4 justify-between gap-12'> */}
             <div>
             <h1 className='title text-5xl mb-8'>What is our <span className='text-violet-300'>difference</span></h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.  architecto quo aperiam omnis explicabo, doloribus nesciunt veniam repellendus. Iusto maiores itaque, nobis 
@@ -31,7 +28,7 @@ const Difference = () => {
             recusandae optio natus!</p>
             <button className='button-primary mt-8'>Learn More</button>
             </div>
-            <img className='w-1/2 ' src={img2} alt="" />
+            <img className=' ' src={img2} alt="" />
             <div className='flex flex-col gap-14 '>
             <div className='flex items-center gap-4'>
                 <div>
