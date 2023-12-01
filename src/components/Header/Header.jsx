@@ -11,8 +11,6 @@ const Header = () => {
         <div className=''>
         <Navbar></Navbar>
         <section>
-            {/* radial gradient circle */}
-            {/* <div className='radial-circle-2 '></div> */}
             <Banner></Banner>
             
             <CoursePartner></CoursePartner>
@@ -24,3 +22,4 @@ const Header = () => {
 };
 
 export default Header;
+

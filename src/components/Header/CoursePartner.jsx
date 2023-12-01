@@ -10,7 +10,8 @@ import monday from "/src/assets/Logo/monday.png"
 
 const CoursePartner = () => {
     return (
-        <div className='flex items-center justify-between border p-6 rounded-lg border-gray-500 mb-28'>
+        <fieldset className='flex items-center justify-between border p-6 rounded-lg border-gray-500 mb-28'>
+            <legend className='text-white font-bold p-4 '> Our Courses Partners </legend>
             <div className='text-2xl text-white me-6'>
             <FaAngleLeft />
             </div>
@@ -34,8 +35,9 @@ const CoursePartner = () => {
             <div className='text-2xl text-white ms-4'>
             <FaAngleRight />
             </div>
-        </div>
+        </fieldset>
     );
 };
 
 export default CoursePartner;
+

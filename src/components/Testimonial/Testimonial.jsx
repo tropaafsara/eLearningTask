@@ -12,7 +12,7 @@ import '../Testimonial/Testimonial.css'
 const Testimonial = () => {
     return (
         <div>
-            <h1 className='title text-center mb-20 text-5xl'>Testimonials</h1>
+            <h1 className='title text-center mb-20 text-5xl mt-36'>Testimonials</h1>
             
             <div className='grid grid-cols-1 lg:grid-cols-3 md:grid-cols-3 gap-12'>
             {/* section-1 */}

@@ -20,17 +20,8 @@ that help your knowledge growing.</p>
 {/* explore button */}
 <div className='relative mt-4 mb-12'>
             <input className=' w-full h-14 border border-black rounded-full p-7 mt-6 mb-6' 
-            type="text" name="" id="" placeholder=''  />
-
-            <div className='hidden flex gap-2 items-center absolute top-10 ms-3 '>
-            <span className='text-slate-600 text-2xl'><CiSearch /></span>
-                <p className='text-slate-600 text-sm'>Want to learn?</p>
-            </div>
-
-
+            type="text" name="" id="" placeholder='Want to learn?'  />
             <button className='absolute button-primary top-8 right-2 ' >Explore</button>
-
-
             </div>
             </div>
             {/* banner image */}

@@ -70,8 +70,6 @@ const PopularCourses = () => {
             <button className='py-3 px-8 text-sm bg-violet-500 rounded-full text-slate-200 mt-8'>Explore All Courses</button>
             </div>
             </div>
-            {/* radial gradient circle */}
-        {/* <div className='radial-circle-9 '></div> */}
         </div>
     );
 };

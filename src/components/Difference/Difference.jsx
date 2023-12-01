@@ -70,7 +70,9 @@ const Difference = () => {
         </div>
 
 
+        {/* <div className='mt-10'>
         <Dot></Dot>
+        </div> */}
         </div>
     );
 };
