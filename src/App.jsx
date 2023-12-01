@@ -16,11 +16,13 @@ function App() {
       <div className='semi-circle1'></div>
       <div className='half-circle-1'></div>
       <div className='half-circle-2'></div>
+     
       <div className='element-1'></div>
       <div className='element-2'></div>
       <div className='element-3 bg-red-500'></div>
       <div className='small-circle1'></div>
       <div className='small-circle2'></div>
+      
       <div className='element-4'>
       <Dot></Dot>
       </div>
